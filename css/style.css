@@ -33,3 +33,13 @@ button {
     background-color:green;
     font-display: white;
 }
+h1 {
+    text-align:center;
+}
+.sambutan {
+    text-align:center;
+}
+.rumus-segitiga {
+    text-align: center;
+    font-weight: bold;
+}
