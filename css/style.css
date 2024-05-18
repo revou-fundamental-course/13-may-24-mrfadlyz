@@ -1,1 +1,36 @@
 /* Ini css */
+/* Ini CSS */
+.section-content {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: green;
+}
+.section-content>h3 {
+    margin: 0;
+}
+
+#switch-keliling {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: white;
+    border: 0px;
+} 
+.formula-img {
+    text-align: center;
+}
+input {
+    background-color:gainsboro;
+    border-radius: 5px;
+    font-family:math;
+    padding:4px;
+    width:100%
+}
+img {
+    height: 100px;
+}
+button {
+    background-color:green;
+    font-display: white;
+}
