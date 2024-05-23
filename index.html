@@ -3,68 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator</title>
+    <title>Kalkulator Online</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <header>
-        <h1>Kalkulator Segitiga Bermuda</h1>
-        <section> 
-            <div class="sambutan">
-                <p>
-                Hai Sobat, Selamat datang di Katik!
-                <p> 
-                Sebuah Web Apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
-                </p>
-                </p>
+    <div class="card">
+        <header class="welcome">
+            <h1>Selamat datang</h1>
+            <section>
+                <p>di Kalkulator Online yang apa adanya</p>
+            </section>
+        </header>
+
+        <section class="shape-type">
+            <section class="shape">
+                <div class="section-segitiga">
+                    <h3>Segitiga</h3>
+                </div>
+                <div class="section-jajar-genjang">
+                    <h3>Belah Ketupat</h3>
+                </div>
+            </section>
+            <div class="shape-title">
+                <h1 id="title-segitiga">Luas Segitiga</h1>
+                <button type="button" id="toggle-button" onclick="toggleFormula()">Keliling Segitiga</button>
             </div>
         </section>
-    </header>
-    <section>
-        <div class="section-content">
-            <h3>Segitiga</h3>
-        </div>
 
-        <button type="button" id="switch-keliling"><u>Switch ke Keliling Segitiga</u></button>
-    </section>
-
-    <section>
-        <div class="section-content">
-            <h2>Luas Segitiga</h2>
-        </div>
-        <div class="formula-img"> 
-            <img src="https://cdn-brilio-net.akamaized.net/real/2023/10/16/2130004/rumus-luas-segitiga-sama-sisi.png">
-        </div>
-    </section>
-    <hr>
-    <section>
-        <div> Rumus Luas Segitiga yaitu :
-        </div>
-        <div class="rumus-segitiga"> L = 1/2 x a x t
-        </div>
-        <div>
-           Di mana :
-           L = Luas
-           a = Panjang Alas
-           t = Tinggi 
-        </div>
-    </section>
-    <section>
-    <header>
-            <h2> Hitung Luas Segitiga</h2>
-    </header>
-            <div>
-            <form> 
-            <section><label>Alas :</label><input>
-            </div>    
-            <div>
-            <label>Tinggi :</label><input>
-            </div>
-             </form>
+        <section id="formula-section">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMIm7LtaLKGRtZ9EmSQYOws3F3_neUbuv6C_lnhcltzQ&s" alt="segitiga">
+            <section>
+                <p>Rumus Luas Segitiga:</p>
+                <p class="rumus"><b>L = 1/2 x a x t</b></p>
+                <div>
+                    <p>Dimana :</p>
+                    <p>L = Luas</p>
+                    <p>a = Alas</p>
+                    <p>t = Tinggi</p>
+                </div>
             </section>
-            <p>Diketahui blablabla...</p>
-            <button type="button">Hitung</button>
-            <button type="button">Reset</button>
-    </section>
+        </section>
+        <hr>
+        <h2 id="formula-title">Luas Segitiga</h2>
+        <section id="input-section">
+            <div>
+                <form class="input">
+                    <input type="text" placeholder="Nilai Alas" id="nilai-alas" >
+                    <input type="text" placeholder="Nilai Tinggi" id="nilai-tinggi">
+                    <input type="text" placeholder="Nilai Sisi s2" id="nilai-sisi" style="display: none;">
+                </form>
+            </div>
+            <div>
+                <button type="button" id="button-hitung" onclick=hitungLuas()>Hitung</button>
+                <div id="result" class="result"></div> <!-- Here's the result -->
+                <button type="button" id="button-reset" onclick=resetInput()>Reset</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
