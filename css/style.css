@@ -1,6 +1,6 @@
 /* Ini CSS */
 body {
-    background-color: beige;
+    background-color: rgb(108, 206, 136);
 }
 
 .result {
@@ -8,7 +8,7 @@ body {
 }
 
 .card {
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 20px;
     margin: 20px auto;
@@ -28,12 +28,12 @@ body {
 .section-segitiga {
     margin: 2px;
     padding: 2px;
-    background-color: bisque;
+    background-color: rgb(197, 255, 196);
     text-align: center;
 }
 
 .section-jajar-genjang {
-    color: blue;
+    color: rgb(0, 139, 14);
     text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
     padding-bottom: 15px;
     text-align: center;
     border-radius: 3px;
-    background-color: bisque;
+    background-color:rgb(197, 255, 196);
 }
 
 #formula-section img {
@@ -76,6 +76,6 @@ button:hover {background-color: #ccc;}
     display: block;
     margin-left: auto;
     justify-self: end;
-    background-color: orangered;
+    background-color: rgb(22, 103, 0);
     color: white;
 }

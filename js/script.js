@@ -40,17 +40,17 @@ function toggleFormula() {
     const inputSection = document.getElementById('input-section');
 
     if(isArea) {
-        title.innerHTML = 'Keliling Segitiga'
-        button.innerHTML = '<u>Luas Segitiga</u>';
+        title.innerHTML = 'Kalkulator Keliling Segitiga'
+        button.innerHTML = '<u>Pindah ke Luas Segitiga</u>';
         formulaSection.innerHTML = `
-            <img src="https://imgbox.com/b0aYBK1t" alt="segitiga">
+            <img src="https://thumbs2.imgbox.com/0d/86/b0aYBK1t_t.png" alt="segitiga">
             <section>
-                <p>Rumus Keliling Segitiga yaitu:</p>
-                <p  class="rumus"><b>K = a + s1 + s2</b></p>
+                <p>Rumus Keliling Segitiga :</p>
+                <p  class="rumus"><b>K = a + b + c</b></p>
                 <div>
                     <p>Dimana :</p>
                     <p>K = Keliling</p>
-                    <p>a, s1, s2 = Sisi-sisi segitiga</p>
+                    <p>a, b, c = Sisi-sisi segitiga</p>
                 </div>
             </section>
         `;
@@ -60,8 +60,8 @@ function toggleFormula() {
             <div>
                 <form class="input">
                     <input type="text" placeholder="Nilai a" id="nilai-alas">
-                    <input type="text" placeholder="Nilai s1" id="nilai-tinggi">
-                    <input type="text" placeholder="Nilai s2" id="nilai-sisi">
+                    <input type="text" placeholder="Nilai b" id="nilai-tinggi">
+                    <input type="text" placeholder="Nilai c" id="nilai-sisi">
                 </form>
             </div>
             <div>
@@ -73,12 +73,12 @@ function toggleFormula() {
         `;
         
     } else {
-        title.innerHTML = 'Luas Segitiga'
-        button.innerHTML = '<u>Keliling Segitiga</u>';
+        title.innerHTML = 'Kalkulator Luas Segitiga'
+        button.innerHTML = '<u>Pindah ke Keliling Segitiga</u>';
         formulaSection.innerHTML = `
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMIm7LtaLKGRtZ9EmSQYOws3F3_neUbuv6C_lnhcltzQ&s" alt="segitiga">
+            <img src="https://thumbs2.imgbox.com/0d/86/b0aYBK1t_t.png" alt="segitiga">
             <section>
-                <p>Rumus Luas Segitiga yaitu:</p>
+                <p>Rumus Luas Segitiga :</p>
                 <p  class="rumus"><b>L = 1/2 x a x t</b></p>
                 <div>
                     <p>Dimana :</p>
