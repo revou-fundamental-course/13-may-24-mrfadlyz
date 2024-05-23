@@ -41,9 +41,9 @@ function toggleFormula() {
 
     if(isArea) {
         title.innerHTML = 'Keliling Segitiga'
-        button.innerHTML = '<u>Switch to Luas</u>';
+        button.innerHTML = '<u>Luas Segitiga</u>';
         formulaSection.innerHTML = `
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMIm7LtaLKGRtZ9EmSQYOws3F3_neUbuv6C_lnhcltzQ&s" alt="segitiga">
+            <img src="https://imgbox.com/b0aYBK1t" alt="segitiga">
             <section>
                 <p>Rumus Keliling Segitiga yaitu:</p>
                 <p  class="rumus"><b>K = a + s1 + s2</b></p>
