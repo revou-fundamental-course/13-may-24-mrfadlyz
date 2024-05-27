@@ -26,7 +26,7 @@ function hitungArea() {
 
     const keliling = (alas + s1 + s2);
     const result = document.getElementById('result');
-    result.innerHTML = `K = a + s1 + s2 <br> K = ${alas} + ${s1} + ${s2} <br> K = ${keliling}`
+    result.innerHTML = `K = a + b + c <br> K = ${alas} + ${s1} + ${s2} <br> K = ${keliling}`
     // alert(`Nilai Keliling Segitiga adalah ${keliling}`) 
 }
 
@@ -66,7 +66,7 @@ function toggleFormula() {
             </div>
             <div>
                 <button type="button" id="button-hitung" onclick=hitungArea()>Hitung</button>
-                <div id="result" class="result"></div> <!-- Here's the result -->
+                <div id="result" class="result"></div>
                 <button type="button" id="button-reset" onclick=resetInput()>Reset</button>
             </div>
         </section>
@@ -100,7 +100,7 @@ function toggleFormula() {
             </div>
             <div>
                 <button type="button" id="button-hitung" onclick=hitungLuas()>Hitung</button>
-                <div id="result" class="result"></div> <!-- Here's the result -->
+                <div id="result" class="result"></div>
                 <button type="button" id="button-reset" onclick=resetInput()>Reset</button>
             </div>
         </section>
